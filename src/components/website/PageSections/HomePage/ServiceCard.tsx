@@ -20,7 +20,7 @@ const services = [
   {
     title: "Brick Veneer",
     description:
-      "At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.",
+      "At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.",
     image: "/images/service3.jpg",
   },
 ];
@@ -66,7 +66,7 @@ export default function ServiceCard() {
                   {service.title}
                 </h3>
                 <p className="text-sm text-gray-300 leading-relaxed text-start group-hover:text-gray-700">
-                  {service.description}
+                  {service.description.slice(0, 200)}...
                 </p>
               </CardContent>
 
@@ -74,7 +74,7 @@ export default function ServiceCard() {
               <CardFooter className="flex justify-start p-6 pt-0">
                 <Button
                   variant="outline"
-                  className="w-1/2 border border-white text-white bg-transparent rounded-lg font-medium
+                  className="w-20 border border-white text-white bg-transparent rounded-lg font-medium
                              transition-all duration-300
                              group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black group-hover:border-[#CA9520]"
                   aria-label={`Learn more about ${service.title} services`}
