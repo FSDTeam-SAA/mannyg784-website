@@ -27,7 +27,7 @@ export default function Topbar() {
             {/* Left Section */}
             <div className="message flex flex-col sm:flex-row justify-between items-center sm:items-start text-center sm:text-left gap-2 sm:gap-6 px-2">
               <div className="flex items-center text-white gap-2 sm:gap-3">
-                <Phone className="text-white w-4 h-4 sm:w-4 sm:h-4" />
+                <Phone className="text-[#CA9520] w-4 h-4 sm:w-4 sm:h-4" />
                 <a
                   href="tel:480-432-9579"
                   className="text-[10px] sm:text-xs md:text-sm hover:underline  transition-colors"
@@ -36,16 +36,16 @@ export default function Topbar() {
                 </a>
               </div>
               <div className="flex items-center text-white gap-2 sm:gap-3 sm:text-xs md:text-sm">
-                <Mail className="text-white w-4 h-4 sm:w-4 sm:h-4" />
+                <Mail className="text-[#CA9520] w-4 h-4 sm:w-4 sm:h-4" />
                 <a
                   href="mailto:info@elitestonebuildersaz.com"
-                  className="hover:underline sm:text-xs md:text-sm"
+                  className="hover:underline sm:text-xs md:text-sm "
                 >
                   info@elitestonebuildersaz.com
                 </a>
               </div>
               <div className="flex items-center text-white gap-2 sm:gap-3 sm:text-xs md:text-sm">
-                <MapPin className="text-white w-4 h-4 sm:w-5 sm:h-5" />
+                <MapPin className="text-[#CA9520] w-4 h-4 sm:w-5 sm:h-5" />
                 <p className="text-[10px] sm:text-xs md:text-sm">Mesa, AZ</p>
               </div>
             </div>

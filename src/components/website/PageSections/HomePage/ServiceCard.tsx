@@ -28,7 +28,7 @@ const services = [
 export default function ServiceCard() {
   return (
     <section
-      className="bg-gray-300 text-white py-16"
+      className="bg-gray-300 text-gray-900 py-16"
       aria-labelledby="services-heading"
     >
       <div className="container mx-auto px-4 text-center space-y-10">

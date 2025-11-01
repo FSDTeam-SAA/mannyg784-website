@@ -29,6 +29,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/services", label: "Services" },
     { href: "/about-us", label: "About" },
+    { href: "/gallery", label: "Gallery" },
     { href: "/contact-us", label: "Contact Us" },
   ];
 
@@ -74,7 +75,7 @@ export default function Navbar() {
         </div>
 
         <div className="">
-          <Link href="https://x.com/GalindoMasonry" target="_blank">
+          <Link href="/contact-us">
             <Button
               variant="outline"
               className="w-35  text-white bg-[#CA9520] rounded-lg font-medium
