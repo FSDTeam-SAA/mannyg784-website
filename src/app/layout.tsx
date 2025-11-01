@@ -21,7 +21,7 @@ export const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Services Services",
+  title: "Elite Stone Services",
   description:
     "Elite craftsmanship in custom stone, tile, and masonry for homes & businesses across the Valley.",
 };
