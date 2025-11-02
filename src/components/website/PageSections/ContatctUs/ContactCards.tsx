@@ -1,30 +1,28 @@
-"use client";
-
 import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 
-const processcards = [
+const Contactinfos = [
   {
     id: 1,
-    title: "Consultation",
-    description:
-      "We meet with you to understand your vision, requirements, and budget.",
+    icon: "phone",
+    title: "Phone Number",
+    description: "+2345-678998",
   },
   {
     id: 2,
-    title: "Planning & Design",
-    description:
-      "We create a detailed plan and design that aligns perfectly with your goals.",
+    icon: "phone",
+    title: "Phone Number",
+    description: "+2345-678998",
   },
   {
     id: 3,
-    title: "Execution",
-    description:
-      "Our skilled team brings your project to life with precision and care.",
+    icon: "phone",
+    title: "Phone Number",
+    description: "+2345-678998",
   },
 ];
 
-export default function ProcessCards() {
+export const ContactCards = () => {
   return (
     <section className="py-16 bg-transparent text-white">
       <div className="container mx-auto px-4">
@@ -41,25 +39,25 @@ export default function ProcessCards() {
 
         {/* Cards Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {processcards.map((processcard) => (
+          {Contactinfos.map((Contactinfo) => (
             <Card
-              key={processcard.id}
+              key={Contactinfo.id}
               className="bg-white border border-gray-800 rounded-xl hover:border-[#CA9520] transition-all duration-300"
             >
               <CardContent className="p-6">
                 {/* Number Circle */}
-                <div className="w-8 h-8 flex items-center justify-center bg-[#CA9520]/10 text-[#CA9520] rounded-full font-semibold mb-4">
-                  {processcard.id}
+                <div className="w-20 h-20 flex justify-center items-center  bg-[#CA9520]/10 text-[#CA9520] rounded-full font-semibold mb-4">
+                  {Contactinfo.icon}
                 </div>
 
                 {/* Title */}
                 <h3 className="text-lg  font-semibold mb-2 text-gray-800">
-                  {processcard.title}
+                  {Contactinfo.title}
                 </h3>
 
                 {/* Description */}
                 <p className="text-gray-500 text-sm leading-relaxed">
-                  {processcard.description}
+                  {Contactinfo.description}
                 </p>
               </CardContent>
             </Card>
@@ -68,4 +66,4 @@ export default function ProcessCards() {
       </div>
     </section>
   );
-}
+};
