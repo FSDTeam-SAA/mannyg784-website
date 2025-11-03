@@ -1,4 +1,5 @@
 import OurMission from "@/components/website/PageSections/AboutUs/OurMission";
+import { Whychooseus } from "@/components/website/PageSections/Services/Whychooseus";
 import Hero from "@/components/website/ReusableSection/Hero";
 
 export default function page() {
@@ -11,6 +12,7 @@ export default function page() {
         breadcrumb={{ previous: "Home", current: "About Us" }}
       />
       <OurMission />
+      <Whychooseus />
     </div>
   );
 }
