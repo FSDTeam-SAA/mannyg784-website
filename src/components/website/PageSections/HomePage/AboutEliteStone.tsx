@@ -104,14 +104,14 @@ export const AboutEliteStone = () => {
             </div>
             <div className="flex gap-4">
               <Image
-                src="/images/service1.jpg"
+                src="/images/hero-3.jpg"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-1/2"
                 width={290}
                 height={200}
               />
               <Image
-                src="/images/service1.jpg"
+                src="/images/hero.png"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-1/2"
                 width={290}
@@ -127,11 +127,14 @@ export const AboutEliteStone = () => {
               <span className="font-semibold">Builders AZ LLC</span>
             </h3>
 
-            <h2 className="text-4xl text-gray-800 font-bold mb-6 leading-tight">
+            <h2
+              className="text-4xl text-gray-800 font-bold mb-6 leading-tight"
+              style={{ fontFamily: "var(--font-playfair)" }}
+            >
               Experience the Excellence, Build with the Best!
             </h2>
 
-            <p className="text-gray-500 leading-relaxed mb-8">
+            <p className="text-gray-500 leading-relaxed mb-8 text-md">
               Elite Stone Builders AZ LLC is your trusted partner in providing
               superior quality stone construction solutions. Built on the core
               values of integrity, craftsmanship, and customer satisfaction, we

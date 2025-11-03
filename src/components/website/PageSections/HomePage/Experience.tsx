@@ -1,0 +1,68 @@
+"use client";
+import Image from "next/image";
+import React from "react";
+
+export default function Experience() {
+  return (
+    <section className="text-black py-16 md:py-40">
+      <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 items-center gap-12">
+        {/* LEFT CONTENT */}
+        <div className="text-center md:text-left">
+          <h2 className="text-base sm:text-lg font-semibold text-[#E0A523] mb-2">
+            Elite Stone <span className="text-black">Builders AZ LLC</span>
+          </h2>
+
+          <h1
+            className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug md:leading-tight mb-6 font-playfair"
+            style={{ fontFamily: "var(--font-playfair)" }}
+          >
+            Experience the Excellence, Build with the Best!
+          </h1>
+
+          <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
+            Elite Stone Builders AZ LLC is your trusted partner in providing
+            superior quality stone construction solutions. Built on the core
+            values of integrity, craftsmanship, and customer satisfaction, we
+            offer an unmatched blend of style, functionality, and durability in
+            our work. Our team of highly skilled professionals brings decades of
+            experience and a commitment to excellence, ensuring we exceed client
+            expectations at every turn. Specialized in custom stone projects, we
+            cater to both residential and commercial needs across Arizona.
+          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
+            <button className="bg-[#E0A523] hover:bg-[#c4911e] text-black font-semibold px-6 py-3 rounded-md transition-all w-full sm:w-auto">
+              Contact Us
+            </button>
+            <button className="border border-gray-400 text-black px-6 py-3 rounded-md font-semibold transition-all w-full sm:w-auto">
+              Call Now
+            </button>
+          </div>
+        </div>
+
+        {/* RIGHT IMAGES */}
+        <div className="relative flex justify-center mt-12 md:mt-0">
+          {/* Back Image */}
+          <div className="absolute right-4 sm:right-10 md:right-0 w-64 sm:w-80 md:w-96 h-72 sm:h-96 md:h-[440px] rounded-lg overflow-hidden hidden sm:block">
+            <Image
+              src="/images/experience-1.jpg"
+              alt="Stone Wall"
+              fill
+              className="object-cover rounded-lg"
+            />
+          </div>
+
+          {/* Front Image */}
+          <div className="relative z-10 top-0 sm:top-10 w-56 sm:w-64 md:w-[260px] h-72 sm:h-80 md:h-[340px] rounded-lg overflow-hidden shadow-lg">
+            <Image
+              src="/images/experience-2.png"
+              alt="Stone House"
+              fill
+              className="object-cover rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
