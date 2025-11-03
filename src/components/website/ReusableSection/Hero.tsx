@@ -20,7 +20,7 @@ export default function Hero({
   height = "80vh",
 }: HeroProps) {
   return (
-    <div className={`relative w-full h-[${height}]`}>
+    <div className="relative w-full" style={{ height }}>
       {/* Background Image */}
       <Image
         src={imageSrc}

@@ -5,12 +5,12 @@ export default function page() {
   return (
     <div>
       <Hero
-        imageSrc="/images/hero-2.jpg"
-        titleHighlight="Services Elite"
-        titleMain="Stone Boulders AZ LLC"
+        imageSrc="/images/hero-4.png"
+        titleHighlight="Our"
+        titleMain="Services"
         breadcrumb={{ previous: "Home", current: "Services" }}
+        height="70vh"
       />
-
       <ProcessCards />
     </div>
   );
