@@ -1,4 +1,5 @@
 import OurMission from "@/components/website/PageSections/AboutUs/OurMission";
+import { Whychooseus } from "@/components/website/PageSections/Services/Whychooseus";
 import Hero from "@/components/website/ReusableSection/Hero";
 import Section from "@/components/website/ReusableSection/Section";
 
@@ -34,6 +35,8 @@ export default function page() {
         reverse={true}
       />
       <OurMission />
+      {/* why choose us section */}
+      <Whychooseus />
     </div>
   );
 }
