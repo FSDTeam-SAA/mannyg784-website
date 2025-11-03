@@ -35,6 +35,7 @@ export default function page() {
         reverse={true}
       />
       <OurMission />
+      {/* why choose us section */}
       <Whychooseus />
     </div>
   );
