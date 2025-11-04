@@ -70,7 +70,7 @@ export default function GetInTouch() {
   }
 
   return (
-    <div className="bg-[#F8F9FA] py-10">
+    <div className="bg-gray-50 py-10">
       <div className="container mx-auto bg-white rounded-2xl shadow-sm grid grid-cols-1 md:grid-cols-2">
         {/* Left side: Image with gradient overlay */}
         <div className="relative h-64 md:h-auto rounded-l-2xl overflow-hidden">
@@ -207,7 +207,7 @@ export default function GetInTouch() {
               <Button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-[#E0A523] hover:bg-[#c68c1a] text-white rounded-md py-3 font-semibold"
+                className="w-full bg-[#E0A523] hover:bg-[#c68c1a] text-white rounded-md py-3 font-semibold cursor-pointer"
               >
                 {loading ? "Sending..." : "Send Message"}
               </Button>

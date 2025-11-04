@@ -1,18 +1,4 @@
-import { Button } from "@/components/ui/button";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  TicketIcon,
-  Twitter,
-  Youtube,
-} from "lucide-react";
-import Link from "next/link";
-import React from "react";
-import { FaTiktok } from "react-icons/fa";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Topbar() {
   return (
@@ -51,74 +37,6 @@ export default function Topbar() {
             </div>
             <div className="webtitle py-2 md:py-4 text-base text-[#E0A523] md:text-2xl font-bold">
               <p>Elite Stone Builders AZ LLC</p>
-            </div>
-            {/* Right Section */}
-            <div className="phone-number flex flex-row items-center gap-3 sm:gap-4 mt-2 md:mt-0 text-[10px] sm:text-xs md:text-sm">
-              {/* <p className="text-white">Follow Us:</p> */}
-              <div className="flex gap-2 text-white sm:gap-3 sm:text-xs md:text-sm">
-                <Link href="https://x.com/GalindoMasonry" target="_blank">
-                  <Button
-                    variant="outline"
-                    className="w-10  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-                  >
-                    <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
-                  </Button>
-                </Link>
-                <Link
-                  href="https://www.facebook.com/galindosmasonryllc/"
-                  target="_blank"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-10  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-                  >
-                    <Facebook className="w-4 h-4 sm:w-5 sm:h-5 cursor-pointer" />
-                  </Button>
-                </Link>
-                <Link
-                  href="https://www.tiktok.com/@galindos.masonry.llc"
-                  target="_blank"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-10  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-                  >
-                    <FaTiktok className="w-4 h-4 sm:w-5 sm:h-5" />
-                  </Button>
-                </Link>
-                <Link
-                  href="https://www.youtube.com/@GalindosMasonryLLC"
-                  target="_blank"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-10  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-                  >
-                    <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
-                  </Button>
-                </Link>
-                <Link
-                  href="www.https://www.instagram.com/galindosmasonryllc/"
-                  target="_blank"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-10  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-                  >
-                    <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
-                  </Button>
-                </Link>
-              </div>
             </div>
           </div>
         </div>

@@ -1,10 +1,20 @@
-import ConatctSection from "@/components/website/PageSections/ContatctUs/ConatctSection";
-import React from "react";
+import { ContactCards } from "@/components/website/PageSections/ContatctUs/ContactCards";
+import Map from "@/components/website/PageSections/ContatctUs/Map";
+import GetInTouch from "@/components/website/ReusableSection/GetInTouch";
+import Hero from "@/components/website/ReusableSection/Hero";
 
 export default function page() {
   return (
     <div>
-      <ConatctSection />
+      <Hero
+        imageSrc="/images/hero-4.png"
+        titleHighlight="Contact Us Elite Stone"
+        titleMain="Boulders AZ LLC"
+        breadcrumb={{ previous: "Home", current: "Contact Us" }}
+      />
+      <ContactCards />
+      <GetInTouch />
+      <Map />
     </div>
   );
 }
