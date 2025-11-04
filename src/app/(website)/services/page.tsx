@@ -17,8 +17,8 @@ export default function Page() {
       <Section
         heading="Stone Works"
         text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/experience-2.png"
-        imageBack="/images/experience-1.jpg"
+        imageFront="/images/about-1.jpg"
+        imageBack="/images/service-1.jpg"
         showButtons={true}
         reverse={false}
       />
@@ -26,8 +26,8 @@ export default function Page() {
       <Section
         heading="Stone Veneer"
         text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/experience-2.png"
-        imageBack="/images/experience-1.jpg"
+        imageFront="/images/service-5.jpg"
+        imageBack="/images/hero-3.jpg"
         showButtons={true}
         reverse={true}
       />
@@ -35,8 +35,8 @@ export default function Page() {
       <Section
         heading="Brick Veneer"
         text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/experience-2.png"
-        imageBack="/images/experience-1.jpg"
+        imageFront="/images/about-6.jpg"
+        imageBack="/images/about-7.jpg"
         showButtons={true}
         reverse={false}
       />

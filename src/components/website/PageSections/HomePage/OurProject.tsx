@@ -1,100 +1,75 @@
-// "use client";
-// import React from "react";
-// import Slider from "react-slick";
-// import Image from "next/image";
-// import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+"use client";
 
-// export default function OurProject() {
-//   const projects = [
-//     {
-//       image: "/images/project1.jpg",
-//       title: "Residential Stonework",
-//       location: "Mesa, AZ",
-//     },
-//     {
-//       image: "/images/project2.jpg",
-//       title: "Outdoor Patio Masonry",
-//       location: "Scottsdale, AZ",
-//     },
-//     {
-//       image: "/images/project3.jpg",
-//       title: "Custom Brick Wall",
-//       location: "Phoenix, AZ",
-//     },
-//   ];
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Image from "next/image";
+import Link from "next/link";
 
-//   const sliderSettings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 600,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     arrows: false,
-//     autoplay: true,
-//     autoplaySpeed: 4000,
-//   };
+export default function OurProject() {
+  const projects = [
+    {
+      id: 1,
+      title: "Residential Stonework",
+      location: "Mesa, AZ",
+      img: "/images/hero.png",
+    },
+    {
+      id: 2,
+      title: "Backyard Stone Fence",
+      location: "Phoenix, AZ",
+      img: "/images/hero-3.jpg",
+    },
+  ];
 
-//   const sliderRef = React.useRef<Slider>(null);
+  return (
+    <section className="py-10 text-center text-black">
+      <h1 className="text-5xl font-semibold mb-8">
+        Our <span className="text-yellow-500">Project</span>
+      </h1>
 
-//   return (
-//     <section className="bg-[#FFF] py-20 px-4 text-center">
-//       <div className="container mx-auto max-w-5xl">
-//         {/* Title */}
-//         <h2 className="text-3xl md:text-4xl font-semibold text-white mb-10">
-//           Our <span className="text-[#E0A523]">Project</span>
-//         </h2>
+      <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 4000 }}
+          loop
+          className="relative"
+        >
+          {projects.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="relative w-full h-[500px]">
+                <Image
+                  src={item.img}
+                  alt={item.title}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-6 left-6 bg-black/10 p-4 rounded-xl text-left">
+                  <h2 className="font-semibold text-white">{item.title}</h2>
+                  <p className="text-sm text-gray-300">{item.location}</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
 
-//         {/* Slider */}
-//         <div className="relative rounded-2xl overflow-hidden">
-//           <Slider ref={sliderRef} {...sliderSettings}>
-//             {projects.map((project, index) => (
-//               <div key={index} className="relative">
-//                 <Image
-//                   src={project.image}
-//                   alt={project.title}
-//                   width={1000}
-//                   height={600}
-//                   className="rounded-2xl object-cover w-full h-[450px]"
-//                 />
-//                 {/* Caption */}
-//                 <div className="absolute bottom-5 left-5 text-left">
-//                   <div className="flex items-center gap-2 mb-1">
-//                     <ExternalLink size={16} color="white" />
-//                     <h3 className="text-white font-semibold text-sm md:text-base">
-//                       {project.title}
-//                     </h3>
-//                   </div>
-//                   <p className="text-gray-300 text-xs md:text-sm">
-//                     {project.location}
-//                   </p>
-//                 </div>
-//               </div>
-//             ))}
-//           </Slider>
+          {/* Navigation buttons */}
+          <div className="swiper-button-prev !text-white   w-5 h-5 rounded-full flex items-center justify-center"></div>
+          <div className="swiper-button-next !text-white   w-5 h-5 rounded-full flex items-center justify-center"></div>
+        </Swiper>
+      </div>
 
-//           {/* Prev / Next Buttons */}
-//           <button
-//             onClick={() => sliderRef.current?.slickPrev()}
-//             className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-[#E0A523] p-2 rounded-full transition"
-//           >
-//             <ArrowLeft className="text-black" size={18} />
-//           </button>
-
-//           <button
-//             onClick={() => sliderRef.current?.slickNext()}
-//             className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#E0A523] hover:bg-[#c7911d] p-2 rounded-full transition"
-//           >
-//             <ArrowRight className="text-white" size={18} />
-//           </button>
-//         </div>
-
-//         {/* Gallery Button */}
-//         <div className="mt-8">
-//           <button className="bg-[#E0A523] hover:bg-[#c7911d] text-white font-medium px-6 py-2 rounded-md transition">
-//             All Gallery
-//           </button>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
+      <Link href={"/gallery"}>
+        <button className="mt-8 bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
+          All Gallery
+        </button>
+      </Link>
+    </section>
+  );
+}

@@ -82,7 +82,6 @@
 //   );
 // };
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
@@ -147,12 +146,12 @@ export const AboutEliteStone = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-[#CA9520] hover:bg-transparent cursor-pointer hover:text-[#CA9520] border border-[#CA9520] rounded-lg px-5 py-2 font-medium transition-all duration-300">
+              <button className="bg-yellow-500 font-semibold  px-6 py-2 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
                 More About
-              </Button>
-              <Button className="border border-[#CA9520] text-[#CA9520] bg-transparent cursor-pointer hover:bg-[#CA9520] hover:text-white rounded-lg px-5 py-2 font-medium transition-all duration-300">
+              </button>
+              <button className="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">
                 Call Now
-              </Button>
+              </button>
             </div>
           </div>
         </div>
