@@ -30,7 +30,7 @@ export default function Navbar() {
     { href: "/services", label: "Services" },
     { href: "/about-us", label: "About" },
     { href: "/gallery", label: "Gallery" },
-    { href: "/contatct-us", label: "Contact Us" },
+    { href: "/contact-us", label: "Contact Us" },
   ];
 
   return (
