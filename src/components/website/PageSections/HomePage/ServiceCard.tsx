@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
 const services = [
   {
@@ -28,7 +27,7 @@ const services = [
 export default function ServiceCard() {
   return (
     <section
-      className="bg-gray-300 text-gray-900 py-16"
+      className="bg-gray-50 text-gray-900 py-16"
       aria-labelledby="services-heading"
     >
       <div className="container mx-auto px-4 text-center space-y-10">
@@ -46,8 +45,8 @@ export default function ServiceCard() {
           {services.map((service) => (
             <Card
               key={service.title}
-              className="group bg-[#0D0D0D] border border-neutral-800 overflow-hidden pt-0 rounded-2xl 
-                         transition-transform duration-300 hover:scale-[1.03] hover:bg-white hover:text-black"
+              className="group   border border-neutral-800 overflow-hidden pt-0 rounded-2xl 
+                         transition-transform duration-300 hover:scale-[1.03] hover:bg-white hover:text-black hover:border-yellow-500"
             >
               {/* Image */}
               <div className="relative w-full h-72">
@@ -62,40 +61,37 @@ export default function ServiceCard() {
 
               {/* Card Text */}
               <CardContent className="p-6 space-y-3">
-                <h3 className="text-lg text-start text-gray-300 font-semibold group-hover:text-black">
+                <h3 className="text-lg text-start font-semibold group-hover:text-black text-black/90">
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-300 leading-relaxed text-start group-hover:text-gray-700">
+                <p className="text-sm text-black/50 leading-relaxed text-start group-hover:text-gray-700">
                   {service.description.slice(0, 200)}...
                 </p>
               </CardContent>
 
               {/* CTA Button (React to Card Hover) */}
               <CardFooter className="flex justify-start p-6 pt-0">
-                <Button
-                  variant="outline"
-                  className="w-20 border border-white text-white bg-transparent rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black group-hover:border-[#CA9520]"
-                  aria-label={`Learn more about ${service.title} services`}
+                <button
+                  // variant="outline"
+                  className="bg-yellow-500 font-semibold  px-6 py-2 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500"
+                  aria-label="View all our services"
+                  // aria-label={`Learn more about ${service.title} services`}
                 >
                   See More
-                </Button>
+                </button>
               </CardFooter>
             </Card>
           ))}
         </div>
 
         {/* All Services Button */}
-        <Button
-          variant="outline"
-          className="mt-8 bg-white border border-white text-gray-900 font-semibold px-8 cursor-pointer py-3 rounded-xl
-                     transition-all duration-300
-                     hover:bg-[#CA9520] hover:text-black hover:border-[#CA9520]"
+        <button
+          // variant="outline"
+          className="mt-8 bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500"
           aria-label="View all our services"
         >
           All Services
-        </Button>
+        </button>
       </div>
     </section>
   );

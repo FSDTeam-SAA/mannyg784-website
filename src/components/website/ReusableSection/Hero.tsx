@@ -20,13 +20,13 @@ export default function Hero({
   height = "80vh",
 }: HeroProps) {
   return (
-    <div className="relative w-full" style={{ height }}>
+    <div className="relative w-full " style={{ height }}>
       {/* Background Image */}
       <Image
         src={imageSrc}
         alt={`${titleMain} hero image`}
         fill
-        className="object-cover brightness-75"
+        className="object-cover brightness-75 "
       />
 
       {/* Center Title */}

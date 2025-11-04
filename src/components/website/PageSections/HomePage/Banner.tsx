@@ -32,12 +32,12 @@ export default function Banner() {
           businesses across the Valley.
         </p>
         <div className="flex gap-6">
-          <button className="w-[148px]   py-3 flex flex-col justify-end items-center gap-5 bg-[#E0A523] text-black font-semibold rounded-lg hover:bg-yellow-500 transition-colors  cursor-pointer">
+          <button className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-white">
             <span className="text-[#FCFBF8]  text-center text-base font-medium   font-poppins">
               Quote A Request
             </span>
           </button>
-          <button className="w-[148px]  hover:text-black  py-3 flex flex-col justify-end items-center gap-5 border border-[#F8F9FA] text-white font-semibold rounded-lg transition-colors  cursor-pointer">
+          <button className="border border-white text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white hover:border-yellow-500 ">
             <span className="text-[#FCFBF8]  text-center text-base font-medium   font-poppins">
               Our Services
             </span>

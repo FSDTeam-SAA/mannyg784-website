@@ -1,4 +1,4 @@
-import { Award, Badge } from "lucide-react";
+import { Award } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -42,8 +42,8 @@ export const Whychooseus = ({
             <div className="flex flex-col space-y-8 ">
               <div className="flex gap-5 space-x-8">
                 <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#E0A523] rounded-full">
-                    <Award className="text-white" />
+                  <div className="p-2 bg-[#F8F6F1] rounded-full">
+                    <Award className="text-[#E0A523]" />
                   </div>
                   <div className="flex flex-col">
                     <h2 className="font-bold ">15+ Years Experience</h2>
@@ -52,8 +52,8 @@ export const Whychooseus = ({
                 </div>
 
                 <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#E0A523] rounded-full">
-                    <Award className="text-white" />
+                  <div className="p-2 bg-[#F8F6F1] rounded-full">
+                    <Award className="text-[#E0A523]" />
                   </div>
                   <div className="flex flex-col">
                     <h2 className="font-bold ">15+ Years Experience</h2>
@@ -63,8 +63,8 @@ export const Whychooseus = ({
               </div>
               <div className="flex gap-5 space-x-8">
                 <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#E0A523] rounded-full">
-                    <Award className="text-white" />
+                  <div className="p-2 bg-[#F8F6F1] rounded-full">
+                    <Award className="text-[#E0A523]" />
                   </div>
                   <div className="flex flex-col">
                     <h2 className="font-bold ">15+ Years Experience</h2>
@@ -73,8 +73,8 @@ export const Whychooseus = ({
                 </div>
 
                 <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#E0A523] rounded-full">
-                    <Award className="text-white" />
+                  <div className="p-2 bg-[#F8F6F1] rounded-full">
+                    <Award className="text-[#E0A523]" />
                   </div>
                   <div className="flex flex-col">
                     <h2 className="font-bold ">15+ Years Experience</h2>

@@ -59,10 +59,10 @@ export default function Section({
           {/* Buttons */}
           {showButtons && (
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-4">
-              <button className="bg-[#E0A523] hover:bg-[#c4911e] text-black font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-md transition-all w-full sm:w-auto cursor-pointer">
+              <button className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
                 {primaryButtonText}
               </button>
-              <button className="border border-gray-400 px-5 sm:px-6 py-2.5 sm:py-3 rounded-md font-semibold transition-all w-full sm:w-auto hover:bg-[#c4911e] text-black cursor-pointer">
+              <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">
                 {secondaryButtonText}
               </button>
             </div>
