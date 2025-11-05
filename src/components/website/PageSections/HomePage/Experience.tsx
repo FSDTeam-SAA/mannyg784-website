@@ -42,9 +42,12 @@ export default function Experience() {
             >
               Contact Us
             </button>
-            <button className=" border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">
+            <a
+              href="tel:480-432-9579"
+              className=" border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white"
+            >
               Call Now
-            </button>
+            </a>
           </div>
         </div>
 

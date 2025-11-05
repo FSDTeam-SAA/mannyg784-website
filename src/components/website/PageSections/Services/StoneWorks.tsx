@@ -77,9 +77,12 @@ export default function Section({
               {primaryButtonText}
             </button>
 
-            <button className="border border-gray-400 text-black px-6 py-3 rounded-md font-semibold transition-all w-full sm:w-auto">
+            <a
+              href="tel:480-432-9579"
+              className="border border-gray-400 text-black px-6 py-3 rounded-md font-semibold transition-all w-full sm:w-auto"
+            >
               {secondaryButtonText}
-            </button>
+            </a>
           </div>
         </div>
       </div>

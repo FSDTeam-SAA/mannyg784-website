@@ -35,19 +35,12 @@ export default function Navbar() {
     { href: "/contact-us", label: "Contact Us" },
   ];
 
-  interface MenuItem {
-    href: string;
-    label: string;
-  }
-
   const router = useRouter();
 
   const handleQuoteClick = () => {
     if (pathname === "/gallery") {
-      // যদি গ্যালারি পেজে থাকি → /contact-us পেজে পাঠাও
       router.push("/contact-us#get-in-touch");
     } else {
-      // অন্য পেজে থাকলে একই পেজে আইডিতে স্ক্রল করবে
       const el = document.getElementById("get-in-touch");
       if (el) el.scrollIntoView({ behavior: "smooth" });
       else router.push("/contact-us#get-in-touch");
