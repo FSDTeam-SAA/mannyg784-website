@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import Image from "next/image";
 
 interface HeroProps {
@@ -20,14 +20,16 @@ export default function Hero({
   height = "80vh",
 }: HeroProps) {
   return (
-    <div className="relative w-full " style={{ height }}>
+    <div className="relative w-full" style={{ height }}>
       {/* Background Image */}
       <Image
         src={imageSrc}
         alt={`${titleMain} hero image`}
         fill
-        className="object-cover brightness-75 "
+        className="object-cover brightness-75"
       />
+      {/* Black Overlay */}
+      <div className="absolute inset-0 bg-black opacity-35"></div>
 
       {/* Center Title */}
       <div className="absolute inset-0 flex items-center justify-center">
@@ -51,6 +53,12 @@ export default function Hero({
           </>
         )}
         <span className="text-[#E0A523]">{breadcrumb.current}</span>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white animate-bounce">
+        <span className="text-md mb-1">Scroll Down</span>
+        <ChevronDown className="w-6 h-6" />
       </div>
     </div>
   );
