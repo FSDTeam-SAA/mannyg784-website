@@ -57,7 +57,7 @@ export default function Section({
           </p>
 
           {/* Buttons */}
-          {showButtons && (
+          {/* {showButtons && (
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-4">
               <button className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
                 {primaryButtonText}
@@ -65,6 +65,28 @@ export default function Section({
               <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">
                 {secondaryButtonText}
               </button>
+            </div>
+          )} */}
+          {showButtons && (
+            <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-4">
+              <button
+                onClick={() => {
+                  const section = document.getElementById("get-in-touch");
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+                className="bg-yellow-500 font-semibold px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500"
+              >
+                {primaryButtonText}
+              </button>
+
+              <a
+                href="tel:480-432-9579"
+                className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white"
+              >
+                {secondaryButtonText}
+              </a>
             </div>
           )}
         </div>

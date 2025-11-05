@@ -14,32 +14,38 @@ export default function Page() {
         height="70vh"
       />
 
-      <Section
-        heading="Stone Works"
-        text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/about-1.jpg"
-        imageBack="/images/service-1.jpg"
-        showButtons={true}
-        reverse={false}
-      />
+      <div id="stone-works">
+        <Section
+          heading="Stone Works"
+          text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
+          imageFront="/images/about-1.jpg"
+          imageBack="/images/service-1.jpg"
+          showButtons={true}
+          reverse={false}
+        />
+      </div>
 
-      <Section
-        heading="Stone Veneer"
-        text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/service-5.jpg"
-        imageBack="/images/hero-3.jpg"
-        showButtons={true}
-        reverse={true}
-      />
+      <div id="stone-veneer">
+        <Section
+          heading="Stone Veneer"
+          text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
+          imageFront="/images/service-5.jpg"
+          imageBack="/images/hero-3.jpg"
+          showButtons={true}
+          reverse={true}
+        />
+      </div>
 
-      <Section
-        heading="Brick Veneer"
-        text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/about-6.jpg"
-        imageBack="/images/about-7.jpg"
-        showButtons={true}
-        reverse={false}
-      />
+      <div id="brick-veneer">
+        <Section
+          heading="Brick Veneer"
+          text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces. Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
+          imageFront="/images/about-6.jpg"
+          imageBack="/images/about-7.jpg"
+          showButtons={true}
+          reverse={false}
+        />
+      </div>
 
       <ProcessCards />
       <GetInTouch />

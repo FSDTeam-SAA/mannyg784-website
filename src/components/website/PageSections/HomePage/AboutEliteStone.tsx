@@ -83,6 +83,7 @@
 // };
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const AboutEliteStone = () => {
@@ -146,12 +147,17 @@ export const AboutEliteStone = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-yellow-500 font-semibold  px-6 py-2 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
-                More About
-              </button>
-              <button className="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">
+              <Link href={"/about-us"}>
+                <button className="bg-yellow-500 font-semibold  px-6 py-2 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
+                  More About
+                </button>
+              </Link>
+              <a
+                href="tel:480-432-9579"
+                className="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white"
+              >
                 Call Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
