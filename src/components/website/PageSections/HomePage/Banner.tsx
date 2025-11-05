@@ -7,27 +7,12 @@ export default function Banner() {
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Background Video */}
-      {/* <video
-        src="/image/Waterfall.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute w-full h-full object-cover"
-      ></video> */}
       <Image
         src="/images/bg-banner.jpeg"
         alt="bg-banner"
         fill
         className="absolute w-full h-full object-cover object-bottom"
       />
-      {/* <Image
-        src="/images/bg-banner.jpeg"
-        alt="bg-banner"
-        fill
-        className="absolute w-full h-full object-cover"
-        style={{ objectPosition: "50% 100%" }}
-      /> */}
 
       {/* Black Overlay */}
       <div className="absolute inset-0 bg-black opacity-35"></div>
@@ -48,7 +33,15 @@ export default function Banner() {
           businesses across the Valley.
         </p>
         <div className="flex gap-6">
-          <button className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-white">
+          <button
+            onClick={() => {
+              const section = document.getElementById("get-in-touch");
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+            className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-white"
+          >
             <span className="text-[#FCFBF8]  text-center text-base font-medium   font-poppins">
               Quote A Request
             </span>

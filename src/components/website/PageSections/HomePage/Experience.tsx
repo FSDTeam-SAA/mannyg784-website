@@ -31,7 +31,15 @@ export default function Experience() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-            <button className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500">
+            <button
+              onClick={() => {
+                const section = document.getElementById("get-in-touch");
+                if (section) {
+                  section.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+              className="bg-yellow-500 font-semibold  px-6 py-3 rounded-lg cursor-pointer text-white border border-transparent transition-all duration-300 ease-in-out hover:text-yellow-500 hover:bg-transparent hover:border-yellow-500"
+            >
               Contact Us
             </button>
             <button className=" border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white">

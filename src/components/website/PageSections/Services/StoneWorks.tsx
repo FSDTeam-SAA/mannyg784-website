@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 interface SectionProps {
   title: string;
@@ -23,6 +24,7 @@ export default function Section({
   imageAlt = "Section Image",
   reverse = false,
 }: SectionProps) {
+  const router = useRouter();
   return (
     <section className="text-black py-16 md:py-40">
       <div
@@ -74,6 +76,7 @@ export default function Section({
             <button className="bg-[#E0A523] hover:bg-[#c4911e] text-black font-semibold px-6 py-3 rounded-md transition-all w-full sm:w-auto">
               {primaryButtonText}
             </button>
+
             <button className="border border-gray-400 text-black px-6 py-3 rounded-md font-semibold transition-all w-full sm:w-auto">
               {secondaryButtonText}
             </button>

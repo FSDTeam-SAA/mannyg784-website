@@ -209,9 +209,11 @@ export default function GetInTouch() {
                 disabled={loading}
                 className="w-full bg-[#E0A523] hover:bg-[#c68c1a] text-white rounded-md py-3 font-semibold cursor-pointer"
               ></Button> */}
-              <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white hover:border-yellow-500 ">
-                {loading ? "Sending..." : "Send Message"}
-              </button>
+              <div className="flex justify-center w-full">
+                <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-md font-semibold w-full  sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:text-white hover:border-yellow-500 ">
+                  {loading ? "Sending..." : "Send Message"}
+                </button>
+              </div>
             </form>
           </Form>
         </div>
