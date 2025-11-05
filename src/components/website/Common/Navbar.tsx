@@ -75,15 +75,12 @@ export default function Navbar() {
         </div>
 
         <div className="">
-          <Link href="/contact-us">
-            <Button
-              variant="outline"
-              className="w-35  text-white bg-[#CA9520] rounded-lg font-medium
-                             transition-all duration-300
-                             group-hover:bg-[#CA9520] cursor-pointer group-hover:text-black "
-            >
-              Quoute A Request
-            </Button>
+          <Link href="#get-in-touch">
+            <button className="border border-yellow-500 bg-yellow-500 text-white px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-600 hover:text-white hover:border-yellow-500 ">
+              <span className="   text-center text-base font-medium   font-poppins">
+                Quoute A Request
+              </span>
+            </button>
           </Link>
         </div>
 

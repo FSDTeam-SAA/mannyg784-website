@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface HeroProps {
   imageSrc: string;
@@ -44,9 +45,11 @@ export default function Hero({
       <div className="absolute bottom-6 left-6 md:left-20 flex items-center gap-2 text-gray-200 font-medium text-sm md:text-base">
         {breadcrumb.previous && (
           <>
-            <span className="hover:text-white cursor-pointer transition">
-              {breadcrumb.previous}
-            </span>
+            <Link href="/">
+              <span className="hover:text-white cursor-pointer transition">
+                {breadcrumb.previous}
+              </span>
+            </Link>
             <ArrowRight className="w-4 h-4" />
           </>
         )}
