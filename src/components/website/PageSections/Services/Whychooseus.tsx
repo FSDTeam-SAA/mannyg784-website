@@ -1,4 +1,4 @@
-import { Award } from "lucide-react";
+import { Award, CircleCheckBig, Clock, MapPin } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -39,47 +39,56 @@ export const Whychooseus = ({
               satisfaction. We promise quality, reliability, and affordability
               in every project we undertake.
             </p>
-            <div className="flex flex-col space-y-8 ">
-              <div className="flex gap-5 space-x-8">
-                <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#F8F6F1] rounded-full">
-                    <Award className="text-[#E0A523]" />
-                  </div>
-                  <div className="flex flex-col">
-                    <h2 className="font-bold ">15+ Years Experience</h2>
-                    <p>Trusted expertise in Arizona</p>
-                  </div>
+            <div className="grid grid-cols-1 sm:px-0 px-20 sm:grid-cols-2 gap-8">
+              {/* Item 1 */}
+              <div className="flex items-start text-center gap-4 sm:text-left">
+                <div className="p-2 bg-[#F8F6F1] rounded-full shrink-0">
+                  <Award className="text-[#E0A523]" />
                 </div>
-
-                <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#F8F6F1] rounded-full">
-                    <Award className="text-[#E0A523]" />
-                  </div>
-                  <div className="flex flex-col">
-                    <h2 className="font-bold ">15+ Years Experience</h2>
-                    <p>Trusted expertise in Arizona</p>
-                  </div>
+                <div>
+                  <h2 className="font-bold text-lg">15+ Years Experience</h2>
+                  <p className="text-sm text-gray-600">
+                    Trusted expertise in Arizona
+                  </p>
                 </div>
               </div>
-              <div className="flex gap-5 space-x-8">
-                <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#F8F6F1] rounded-full">
-                    <Award className="text-[#E0A523]" />
-                  </div>
-                  <div className="flex flex-col">
-                    <h2 className="font-bold ">15+ Years Experience</h2>
-                    <p>Trusted expertise in Arizona</p>
-                  </div>
-                </div>
 
-                <div className="flex items-start justify-between gap-4">
-                  <div className="p-2 bg-[#F8F6F1] rounded-full">
-                    <Award className="text-[#E0A523]" />
-                  </div>
-                  <div className="flex flex-col">
-                    <h2 className="font-bold ">15+ Years Experience</h2>
-                    <p>Trusted expertise in Arizona</p>
-                  </div>
+              {/* Item 2 */}
+              <div className="flex items-start gap-4 text-left">
+                <div className="p-2 bg-[#F8F6F1] rounded-full shrink-0">
+                  <Clock className="text-[#E0A523]" />
+                </div>
+                <div>
+                  <h2 className="font-bold text-lg">On-Time Delivery</h2>
+                  <p className="text-sm text-gray-600">
+                    Projects completed as promised
+                  </p>
+                </div>
+              </div>
+
+              {/* Item 3 */}
+              <div className="flex items-start gap-4 text-left">
+                <div className="p-2 bg-[#F8F6F1] rounded-full shrink-0">
+                  <CircleCheckBig className="text-[#E0A523]" />
+                </div>
+                <div>
+                  <h2 className="font-bold text-lg">Licensed Professionals</h2>
+                  <p className="text-sm text-gray-600">
+                    Fully licensed & insured
+                  </p>
+                </div>
+              </div>
+
+              {/* Item 4 */}
+              <div className="flex items-start gap-4 text-left">
+                <div className="p-2 bg-[#F8F6F1] rounded-full shrink-0">
+                  <MapPin className="text-[#E0A523]" />
+                </div>
+                <div>
+                  <h2 className="font-bold text-lg">Local Expertise</h2>
+                  <p className="text-sm text-gray-600">
+                    Mesa, AZ community-focused
+                  </p>
                 </div>
               </div>
             </div>
