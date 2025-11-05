@@ -89,11 +89,6 @@ const images = [
     title: "Rustic Villa",
     description: "Perfect mix of tradition & elegance",
   },
-  {
-    src: "/images/Gallery-18.jpg",
-    title: "Rustic Villa",
-    description: "Perfect mix of tradition & elegance",
-  },
 ];
 
 const layoutClasses: string[] = [
@@ -183,7 +178,7 @@ export default function GallerySection() {
           onClick={() => setSelectedImage(null)}
         >
           <div
-            className="relative max-w-5xl w-full"
+            className="relative max-w-5xl w-full max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <button
