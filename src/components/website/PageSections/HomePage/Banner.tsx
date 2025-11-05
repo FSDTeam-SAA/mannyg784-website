@@ -1,17 +1,32 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Banner() {
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Background Video */}
-      <video
+      {/* <video
         src="/image/Waterfall.mp4"
         autoPlay
         loop
         muted
         playsInline
         className="absolute w-full h-full object-cover"
-      ></video>
+      ></video> */}
+      <Image
+        src="/images/bg-banner.jpeg"
+        alt="bg-banner"
+        fill
+        className="absolute w-full h-full object-cover object-bottom"
+      />
+      {/* <Image
+        src="/images/bg-banner.jpeg"
+        alt="bg-banner"
+        fill
+        className="absolute w-full h-full object-cover"
+        style={{ objectPosition: "50% 100%" }}
+      /> */}
 
       {/* Overlay with gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/30 to-black/30"></div>
