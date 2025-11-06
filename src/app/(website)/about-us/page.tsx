@@ -42,9 +42,9 @@ export default function page() {
       {/* Our vision */}
       <div className="pb-10">
         <Section
-          heading="Our vision"
-          text={`To redefine the architectural landscape with uniquely crafted stone structures, enhancing elegance and durability, and ensuring sustainable construction practices that respect and protect our environment.
-        To redefine the architectural landscape with uniquely crafted stone structures, enhancing elegance and durability, and ensuring sustainable construction practices that respect and protect our environment.`}
+          heading="Experience the Excellence, Build with
+ the Best!"
+          text={`Elite Stone Builders AZ LLC is your trusted partner in providing superior quality stone construction solutions. Built on the core values of integrity, craftsmanship, and customer satisfaction, we offer an unmatched blend of style, functionality, and durability in our work. Our team of highly skilled professionals brings decades of experience and a commitment to excellence, ensuring we exceed client expectations at every turn. Specialized in custom stone projects, we cater to both residential and commercial needs across Arizona.`}
           imageFront="/images/experience-2.png"
           imageBack="/images/experience-1.jpg"
           showButtons={true}
