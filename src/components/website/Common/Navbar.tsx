@@ -6,7 +6,6 @@ import { Menu, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useRouter, usePathname } from "next/navigation";
-// import { Button } from "../ui/button";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -79,9 +78,12 @@ export default function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              // onClick={() => handleQuoteClick(item.href)}
               className={`hover:underline hover:font-semibold transition-all duration-200 ${
                 scrolled ? "hover:text-gray-200" : "hover:text-primary/70"
+              } ${
+                pathname === item.href
+                  ? " text-yellow-500 font-semibold" // Active link styles
+                  : ""
               }`}
             >
               {item.label}
@@ -94,8 +96,8 @@ export default function Navbar() {
             onClick={handleQuoteClick}
             className="border border-yellow-500 bg-yellow-500 text-white px-6 py-3 rounded-md font-semibold w-full sm:w-auto cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-600 hover:text-white hover:border-yellow-500 "
           >
-            <span className="   text-center text-base font-medium   font-poppins">
-              Quoute A Request
+            <span className="text-center text-base font-medium font-poppins">
+              Quote A Request
             </span>
           </button>
         </div>
@@ -118,7 +120,11 @@ export default function Navbar() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="text-gray-700 px-5 hover:underline font-medium text-lg hover:text-primary hover:font-semibold transition-all duration-200 py-2"
+                    className={`text-gray-700 px-5 hover:underline font-medium text-lg hover:text-primary hover:font-semibold transition-all duration-200 py-2 ${
+                      pathname === item.href
+                        ? "text-yellow-500 font-semibold" // Active link styles
+                        : ""
+                    }`}
                   >
                     {item.label}
                   </Link>
