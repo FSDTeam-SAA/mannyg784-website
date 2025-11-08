@@ -14,13 +14,13 @@ export default function OurProject() {
       id: 1,
       title: "Residential Stonework",
       location: "Mesa, AZ",
-      img: "/images/hero.png",
+      img: "https://res.cloudinary.com/dibydryv8/image/upload/v1762643065/hero_bcojjt.png",
     },
     {
       id: 2,
       title: "Backyard Stone Fence",
       location: "Phoenix, AZ",
-      img: "/images/hero-3.jpg",
+      img: "https://res.cloudinary.com/dibydryv8/image/upload/v1762642823/hero-3_axr8ov.jpg",
     },
   ];
 
