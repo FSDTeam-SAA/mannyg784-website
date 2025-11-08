@@ -40,7 +40,7 @@ const Footer = () => {
           <p className="text-gray-200">
             Arizona&apos;s premier stone, tile, and masonry specialists.
           </p>
-          <div className="flex gap-4 mt-6">
+          {/* <div className="flex gap-4 mt-6">
             <Link href="https://x.com/GalindoMasonry" target="_blank">
               <Button
                 variant="outline"
@@ -103,7 +103,7 @@ const Footer = () => {
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </Button>
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Middle Section */}
