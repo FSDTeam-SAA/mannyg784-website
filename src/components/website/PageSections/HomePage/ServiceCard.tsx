@@ -10,21 +10,24 @@ const services = [
     title: "Stone Works",
     description:
       "At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Stone Works service, setting the gold standard in the industry. With unmatched craftsmanship and attention to detail.",
-    image: "/images/service1.jpg",
+    image:
+      "https://res.cloudinary.com/dibydryv8/image/upload/v1762642411/service-1_oatapa.jpg",
   },
   {
     id: "#stone-veneer",
     title: "Stone Veneer",
     description:
       "At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Stone Veneer service, setting the gold standard in the industry. With unmatched craftsmanship and detail.",
-    image: "/images/service2.jpg",
+    image:
+      "https://res.cloudinary.com/dibydryv8/image/upload/v1762642533/service-2_kvjtnm.jpg",
   },
   {
     id: "#brick-veneer",
     title: "Brick Veneer",
     description:
       "At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.At Elite Stone Builders AZ LLC, we're proud to offer our exceptional Brick Veneer service, setting the gold standard in the industry. With unmatched quality and precision.",
-    image: "/images/service3.jpg",
+    image:
+      "https://res.cloudinary.com/dibydryv8/image/upload/v1762642661/service3_eie2cl.jpg",
   },
 ];
 

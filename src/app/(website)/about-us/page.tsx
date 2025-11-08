@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div>
       <Hero
-        imageSrc="/images/hero-2.jpg"
+        imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762641891/hero-2_giwoyy.jpg"
         titleHighlight="About Us"
         titleMain=" Elite Stone Boulders AZ LLC"
         breadcrumb={{ previous: "Home", current: "About Us" }}
@@ -20,8 +20,8 @@ export default function page() {
         text={`Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.
  
         Committed to crafting superior stone structures, we blend skillful craftsmanship with high-quality materials to create enduring, aesthetically pleasing designs that reflect our clients' unique visions and enhance their spaces.`}
-        imageFront="/images/about-1.jpg"
-        imageBack="/images/about-2.jpg"
+        imageFront="https://res.cloudinary.com/dibydryv8/image/upload/v1762642133/about-1_v5qbba.jpg"
+        imageBack="https://res.cloudinary.com/dibydryv8/image/upload/v1762642172/about-2_mfaoyt.jpg"
         showButtons={false}
         reverse={false}
       />
@@ -30,8 +30,8 @@ export default function page() {
         heading="Our vision"
         text={`To redefine the architectural landscape with uniquely crafted stone structures, enhancing elegance and durability, and ensuring sustainable construction practices that respect and protect our environment.
         To redefine the architectural landscape with uniquely crafted stone structures, enhancing elegance and durability, and ensuring sustainable construction practices that respect and protect our environment.`}
-        imageFront="/images/about-3.jpg"
-        imageBack="/images/about-4.jpg"
+        imageFront="https://res.cloudinary.com/dibydryv8/image/upload/v1762642244/about-3_k1v7l4.jpg"
+        imageBack="https://res.cloudinary.com/dibydryv8/image/upload/v1762642271/about-4_ka8wkq.jpg"
         showButtons={false}
         reverse={true}
       />
@@ -45,8 +45,8 @@ export default function page() {
           heading="Experience the Excellence, Build with
  the Best!"
           text={`Elite Stone Builders AZ LLC is your trusted partner in providing superior quality stone construction solutions. Built on the core values of integrity, craftsmanship, and customer satisfaction, we offer an unmatched blend of style, functionality, and durability in our work. Our team of highly skilled professionals brings decades of experience and a commitment to excellence, ensuring we exceed client expectations at every turn. Specialized in custom stone projects, we cater to both residential and commercial needs across Arizona.`}
-          imageFront="/images/experience-2.png"
-          imageBack="/images/experience-1.jpg"
+          imageFront="https://res.cloudinary.com/dibydryv8/image/upload/v1762643252/experience-2_ru48ax.png"
+          imageBack="https://res.cloudinary.com/dibydryv8/image/upload/v1762643223/experience-1_pxomn3.jpg"
           showButtons={true}
           reverse={true}
         />

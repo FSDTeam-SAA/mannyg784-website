@@ -4,8 +4,8 @@ import React from "react";
 
 export const Whychooseus = ({
   reverse = false,
-  imageFront = "/images/why1.jpg",
-  imageBack = "/images/why2.jpg",
+  imageFront = "https://res.cloudinary.com/dibydryv8/image/upload/v1762643111/why1_y40c5r.jpg",
+  imageBack = "https://res.cloudinary.com/dibydryv8/image/upload/v1762643141/why2_l4wxvr.jpg",
 }) => {
   return (
     <section>

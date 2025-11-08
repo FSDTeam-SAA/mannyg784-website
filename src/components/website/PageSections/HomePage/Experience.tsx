@@ -56,7 +56,7 @@ export default function Experience() {
           {/* Back Image */}
           <div className="absolute right-4 sm:right-10 md:right-0 w-64 sm:w-80 md:w-96 h-72 sm:h-96 md:h-[440px] rounded-lg overflow-hidden hidden sm:block">
             <Image
-              src="/images/experience-1.jpg"
+              src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643223/experience-1_pxomn3.jpg"
               alt="Stone Wall"
               fill
               className="object-cover rounded-lg"
@@ -66,7 +66,7 @@ export default function Experience() {
           {/* Front Image */}
           <div className="relative z-10 top-0 sm:top-10 w-56 sm:w-64 md:w-[260px] h-72 sm:h-80 md:h-[340px] rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/images/experience-2.png"
+              src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643252/experience-2_ru48ax.png"
               alt="Stone House"
               fill
               className="object-cover rounded-lg"

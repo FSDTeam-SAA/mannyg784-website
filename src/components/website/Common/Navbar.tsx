@@ -59,7 +59,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="https://res.cloudinary.com/dibydryv8/image/upload/v1762641665/logo_cmi0wo.png"
               alt="logo"
               width={50}
               height={50}

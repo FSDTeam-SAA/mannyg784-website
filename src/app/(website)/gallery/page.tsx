@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div>
       <Hero
-        imageSrc="/images/hero-3.png"
+        imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762642008/hero-3_pyndbk.png"
         titleHighlight="All Gallery Elite Stone"
         titleMain="Boulders AZ LLC"
         breadcrumb={{ previous: "Home", current: "All Gallery" }}
