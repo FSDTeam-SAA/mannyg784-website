@@ -8,7 +8,7 @@ export default function Banner() {
     <div className="relative h-screen overflow-hidden">
       {/* Background Video */}
       <Image
-        src="/images/bg-banner.jpeg"
+        src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643312/bg-banner_dqnifw.jpg"
         alt="bg-banner"
         fill
         className="absolute w-full h-full object-cover object-bottom"

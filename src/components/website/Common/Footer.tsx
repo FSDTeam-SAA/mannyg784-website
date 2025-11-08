@@ -30,7 +30,7 @@ const Footer = () => {
         <div>
           <Link href="/" className="w-24 h-20">
             <Image
-              src="/images/logo.png"
+              src="https://res.cloudinary.com/dibydryv8/image/upload/v1762641665/logo_cmi0wo.png"
               alt="Footer Logo"
               width={90}
               height={80}
