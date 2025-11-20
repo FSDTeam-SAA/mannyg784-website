@@ -11,7 +11,7 @@ export const AboutEliteStone = () => {
           <div className="flex flex-col gap-4 w-full lg:w-1/2">
             <div>
               <Image
-                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762642411/service-1_oatapa.jpg"
+                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643065/hero_bcojjt.png"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-full"
                 width={600}
@@ -27,7 +27,7 @@ export const AboutEliteStone = () => {
                 height={200}
               />
               <Image
-                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643065/hero_bcojjt.png"
+                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762642411/service-1_oatapa.jpg"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-1/2"
                 width={290}
