@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Best Stone Tile and Certified Masonry Specialists AZ",
   description:
     "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our expert craftsmanship in Arizona.",
+  keywords: "certified masonry specialists",
 };
 
 export default function page() {

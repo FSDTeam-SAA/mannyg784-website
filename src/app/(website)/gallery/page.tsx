@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Stone Construction Portfolio Examples | Elite Stone Builders AZ",
   description:
     "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our expert craftsmanship in Arizona.",
+  keywords: "construction portfolio examples",
 };
 
 export default function page() {

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Residential and Commercial Construction Services AZ",
   description:
     "Upgrade your space with expert residential and commercial construction services. From stone to veneer and brick, our skilled team delivers quality craftsmanship you can trust.",
+  keywords: "residential and commercial construction services",
 };
 
 export default function page() {
