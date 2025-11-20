@@ -3,6 +3,13 @@ import { Whychooseus } from "@/components/website/PageSections/Services/Whychoos
 import GetInTouch from "@/components/website/ReusableSection/GetInTouch";
 import Hero from "@/components/website/ReusableSection/Hero";
 import Section from "@/components/website/ReusableSection/Section";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Residential and Commercial Construction Services AZ",
+  description:
+    "Upgrade your space with expert residential and commercial construction services. From stone to veneer and brick, our skilled team delivers quality craftsmanship you can trust.",
+};
 
 export default function page() {
   return (

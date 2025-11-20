@@ -2,6 +2,13 @@ import { ContactCards } from "@/components/website/PageSections/ContatctUs/Conta
 import Map from "@/components/website/PageSections/ContatctUs/Map";
 import GetInTouch from "@/components/website/ReusableSection/GetInTouch";
 import Hero from "@/components/website/ReusableSection/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Stone Tile and Certified Masonry Specialists AZ",
+  description:
+    "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our expert craftsmanship in Arizona.",
+};
 
 export default function page() {
   return (

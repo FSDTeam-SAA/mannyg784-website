@@ -1,5 +1,12 @@
 import GallerySection from "@/components/website/PageSections/Gallery/GallerySection";
 import Hero from "@/components/website/ReusableSection/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Stone Construction Portfolio Examples | Elite Stone Builders AZ",
+  description:
+    "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our expert craftsmanship in Arizona.",
+};
 
 export default function page() {
   return (
