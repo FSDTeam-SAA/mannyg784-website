@@ -2,6 +2,14 @@ import ProcessCards from "@/components/website/PageSections/Services/ProcessCard
 import GetInTouch from "@/components/website/ReusableSection/GetInTouch";
 import Hero from "@/components/website/ReusableSection/Hero";
 import Section from "@/components/website/ReusableSection/Section";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Professional Stone Construction Services | Elite Stone Builders AZ",
+  description:
+    "Get expert stone, tile, and masonry work from Arizona’s trusted pros. Choose our professional construction services for quality, durability, and standout craftsmanship.",
+  keywords: "professional construction services",
+};
 
 export default function Page() {
   return (

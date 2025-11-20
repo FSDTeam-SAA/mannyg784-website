@@ -122,9 +122,9 @@ export default function GallerySection() {
   return (
     <section className="relative w-full text-white py-16 px-4 overflow-hidden">
       <div className="container mx-auto relative z-10">
-        <h1 className="text-center text-3xl md:text-4xl font-semibold mb-10 text-yellow-400">
+        <h2 className="text-center text-3xl md:text-4xl font-semibold mb-10 text-yellow-400">
           All Gallery
-        </h1>
+        </h2>
 
         {/* ✅ Responsive Grid */}
         <div
