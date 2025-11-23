@@ -5,9 +5,9 @@ import Section from "@/components/website/ReusableSection/Section";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Professional Stone Construction Services | Elite Stone Builders AZ",
+  title: "Premium Professional Construction Services AZ",
   description:
-    "Get expert stone, tile, and masonry work from Arizona’s trusted pros. Choose our professional construction services for quality, durability, and standout craftsmanship.",
+    "We provide premium professional construction services across Arizona, offering stonework, masonry, and durable building solutions with expert craftsmanship.",
   keywords: "professional construction services",
 };
 
@@ -16,8 +16,8 @@ export default function Page() {
     <div>
       <Hero
         imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762642042/hero-4_qphfob.png"
-        titleHighlight="Services Elite Stone"
-        titleMain="Boulders AZ LLC"
+        titleHighlight="Experience the Best Professional"
+        titleMain="Construction Services"
         breadcrumb={{ previous: "Home", current: "Services" }}
         height="70vh"
       />

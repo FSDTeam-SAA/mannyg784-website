@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Elite Stone Builders AZ | Custom Stone & Masonry Experts",
   description:
-    "Get expert stone, tile, and masonry work from Arizona’s trusted pros. Choose our professional construction services for quality, durability, and standout craftsmanship.",
+    "Get expert stone, tile, and masonry work from Arizona’s trusted pros. Choose our professional construction services for quality craftsmanship.",
   keywords: "Elite Stone Builders",
 };
 

@@ -20,10 +20,10 @@ export default function Banner() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-start justify-center h-full px-6 md:px-20 text-white ">
         <h1
-          className="text-2xl md:text-[60px] font-semibold leading-[72px] mb-4 font-playfair text-white"
+          className="text-2xl md:text-[60px] font-semibold lg:leading-[72px] mb-4 font-playfair text-white"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
-          Elite Stone Builders AZ LLC
+          Elite Stone Builders <br /> Crafting Arizona’s Finest Stonework
         </h1>
         <p
           className="text-md font-normal leading-[27px] mb-6 font-poppins my-0 md:my-5 text-white max-w-2xl"
