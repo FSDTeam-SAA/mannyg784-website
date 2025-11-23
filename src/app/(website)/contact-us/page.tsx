@@ -5,9 +5,9 @@ import Hero from "@/components/website/ReusableSection/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Stone Tile and Certified Masonry Specialists AZ",
+  title: "Certified Masonry Specialists | Contact EliteStone",
   description:
-    "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our expert craftsmanship in Arizona.",
+    "Connect with certified masonry specialists at EliteStone Builders for expert stonework, brick veneer, and durable structures. Contact us today for professional service.",
   keywords: "certified masonry specialists",
 };
 
@@ -16,8 +16,8 @@ export default function page() {
     <div>
       <Hero
         imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762641971/hero-4_kybnli.png"
-        titleHighlight="Contact Us Elite Stone"
-        titleMain="Boulders AZ LLC"
+        titleHighlight="Arizona's Best Stone Tile &"
+        titleMain="Certified Masonry Specialists"
         breadcrumb={{ previous: "Home", current: "Contact Us" }}
       />
       <ContactCards />

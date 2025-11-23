@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Residential and Commercial Construction Services AZ",
   description:
-    "Upgrade your space with expert residential and commercial construction services. From stone to veneer and brick, our skilled team delivers quality craftsmanship you can trust.",
+    "Upgrade your space with expert residential and commercial construction services. From stone to veneer and brick, our team delivers quality craftsmanship.",
   keywords: "residential and commercial construction services",
 };
 
@@ -18,7 +18,7 @@ export default function page() {
       <Hero
         imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762641891/hero-2_giwoyy.jpg"
         titleHighlight="About Us"
-        titleMain=" Elite Stone Boulders AZ LLC"
+        titleMain="Elite Stone Boulders AZ LLC"
         breadcrumb={{ previous: "Home", current: "About Us" }}
       />
 
