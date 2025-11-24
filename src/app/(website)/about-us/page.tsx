@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Residential and Commercial Construction Services AZ",
   description:
-    "Upgrade your space with expert residential and commercial construction services. From stone to veneer and brick, our team delivers quality craftsmanship.",
+    "Upgrade your space with expert residential and commercial construction services. Stone to veneer and brick, our team delivers quality craftsmanship!",
   keywords: "residential and commercial construction services",
 };
 

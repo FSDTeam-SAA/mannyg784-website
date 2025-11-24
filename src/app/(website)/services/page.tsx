@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Premium Professional Construction Services AZ",
   description:
-    "We provide premium professional construction services across Arizona, offering stonework, masonry, and durable building solutions with expert craftsmanship.",
+    "We provide premium professional construction services across Arizona, offering stonework, masonry, and durable building solution with expert craftsmanship.",
   keywords: "professional construction services",
 };
 

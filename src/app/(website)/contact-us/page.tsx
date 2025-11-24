@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Certified Masonry Specialists | Contact EliteStone",
   description:
-    "Connect with certified masonry specialists at EliteStone Builders for expert stonework, brick veneer, and durable structures. Contact us today for professional service.",
+    "Connect with certified masonry specialists at EliteStone Builders for expert stonework, brick veneer, and durable structures. Contact us today!",
   keywords: "certified masonry specialists",
 };
 
