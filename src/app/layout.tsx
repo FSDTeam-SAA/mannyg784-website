@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: "Elite Stone Services",
   description:
     "Elite craftsmanship in custom stone, tile, and masonry for homes & businesses across the Valley.",
+  verification: {
+    google: "9eJjdfDcUDRU-Yfc-WYAXinQ2vq0biGXfIAAMnGPs3A",
+  },
 };
 
 export default function RootLayout({
@@ -36,12 +39,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${playfair.variable} ${poppins.variable}`}
     >
-      <head>
-        <meta
-          name="google-site-verification"
-          content="9eJjdfDcUDRU-Yfc-WYAXinQ2vq0biGXfIAAMnGPs3A"
-        />
-      </head>
       <body className="font-playfair antialiased">
         {children}
         <Toaster position="top-center" richColors closeButton />
