@@ -52,14 +52,20 @@ export const AboutEliteStone = () => {
 
             <p className="text-gray-500 leading-relaxed mb-8 text-md">
               Elite Stone Builders AZ LLC is your trusted partner in providing
-              superior quality stone construction solutions. Built on the core
-              values of integrity, craftsmanship, and customer satisfaction, we
-              offer an unmatched blend of style, functionality, and durability
-              in our work. Our team of highly skilled professionals brings
-              decades of experience and a commitment to excellence, ensuring we
-              exceed client expectations at every turn. Specialized in custom
-              stone projects, we cater to both residential and commercial needs
-              across Arizona.
+              superior quality{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Stonemasonry"
+                target="_blank"
+              >
+                stone construction
+              </a>{" "}
+              solutions. Built on the core values of integrity, craftsmanship,
+              and customer satisfaction, we offer an unmatched blend of style,
+              functionality, and durability in our work. Our team of highly
+              skilled professionals brings decades of experience and a
+              commitment to excellence, ensuring we exceed client expectations
+              at every turn. Specialized in custom stone projects, we cater to
+              both residential and commercial needs across Arizona.
             </p>
 
             <div className="flex flex-wrap gap-4">

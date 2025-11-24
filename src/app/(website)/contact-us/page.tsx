@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "Connect with certified masonry specialists at EliteStone Builders for expert stonework, brick veneer, and durable structures. Contact us today!",
   keywords: "certified masonry specialists",
+  alternates: {
+    canonical: "https://elitestonebuildersaz.cloud/contact-us",
+  },
 };
 
 export default function page() {

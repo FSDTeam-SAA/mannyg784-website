@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Upgrade your space with expert residential and commercial construction services. Stone to veneer and brick, our team delivers quality craftsmanship!",
   keywords: "residential and commercial construction services",
+  alternates: {
+    canonical: "https://elitestonebuildersaz.cloud/about-us",
+  },
 };
 
 export default function page() {
