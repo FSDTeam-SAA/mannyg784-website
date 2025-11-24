@@ -36,12 +36,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${playfair.variable} ${poppins.variable}`}
     >
-      <header>
+      <head>
         <meta
           name="google-site-verification"
           content="9eJjdfDcUDRU-Yfc-WYAXinQ2vq0biGXfIAAMnGPs3A"
         />
-      </header>
+      </head>
       <body className="font-playfair antialiased">
         {children}
         <Toaster position="top-center" richColors closeButton />
