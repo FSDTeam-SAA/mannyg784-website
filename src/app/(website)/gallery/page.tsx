@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description:
     "Explore construction portfolio examples showcasing premium stonework, brick, and custom designs. See real projects and get inspired by our craftsmanship.",
   keywords: "construction portfolio examples",
+  alternates: {
+    canonical: "https://elitestonebuildersaz.cloud/gallery",
+  },
 };
 
 export default function page() {

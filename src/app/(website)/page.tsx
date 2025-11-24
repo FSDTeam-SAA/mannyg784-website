@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Get expert stone, tile, and masonry work from Arizona’s trusted pros. Choose our professional construction services for quality craftsmanship.",
   keywords: "Elite Stone Builders",
+  alternates: {
+    canonical: "https://elitestonebuildersaz.cloud",
+  },
 };
 
 export default function page() {
