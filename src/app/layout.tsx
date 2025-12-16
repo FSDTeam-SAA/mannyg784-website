@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: "Elite Stone Services",
   description:
     "Elite craftsmanship in custom stone, tile, and masonry for homes & businesses across the Valley.",
+  verification: {
+    google: "9eJjdfDcUDRU-Yfc-WYAXinQ2vq0biGXfIAAMnGPs3A",
+  },
 };
 
 export default function RootLayout({

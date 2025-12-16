@@ -3,6 +3,17 @@ import { Whychooseus } from "@/components/website/PageSections/Services/Whychoos
 import GetInTouch from "@/components/website/ReusableSection/GetInTouch";
 import Hero from "@/components/website/ReusableSection/Hero";
 import Section from "@/components/website/ReusableSection/Section";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Residential and Commercial Construction Services AZ",
+  description:
+    "Upgrade your space with expert residential and commercial construction services. Stone to veneer and brick, our team delivers quality craftsmanship!",
+  keywords: "residential and commercial construction services",
+  alternates: {
+    canonical: "https://elitestonebuildersaz.cloud/about-us",
+  },
+};
 
 export default function page() {
   return (
@@ -10,7 +21,7 @@ export default function page() {
       <Hero
         imageSrc="https://res.cloudinary.com/dibydryv8/image/upload/v1762641891/hero-2_giwoyy.jpg"
         titleHighlight="About Us"
-        titleMain=" Elite Stone Boulders AZ LLC"
+        titleMain="Elite Stone Boulders AZ LLC"
         breadcrumb={{ previous: "Home", current: "About Us" }}
       />
 

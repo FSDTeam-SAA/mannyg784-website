@@ -26,9 +26,9 @@ export default function OurProject() {
 
   return (
     <section className="py-10 text-center text-black">
-      <h1 className="text-5xl font-semibold mb-8">
+      <h2 className="text-5xl font-semibold mb-8">
         Our <span className="text-yellow-500">Project</span>
-      </h1>
+      </h2>
 
       <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-lg">
         <Swiper

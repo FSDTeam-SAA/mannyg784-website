@@ -25,13 +25,13 @@ export const Whychooseus = ({
               <span className="text-black">Elite Stone</span> Builders AZ LLC
             </h2>
 
-            <h1
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug md:leading-tight mb-5 sm:mb-6 font-playfair"
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug md:leading-tight mb-5 sm:mb-6 font-playfair capitalize"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
               <span className="text-gray-800">why </span>
               <span className="text-yellow-500">choose us</span>
-            </h1>
+            </h2>
 
             <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
               Choose us for our unmatched expertise in stone building,

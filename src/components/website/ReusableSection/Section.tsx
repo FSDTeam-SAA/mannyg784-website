@@ -13,6 +13,7 @@ interface SectionProps {
   primaryButtonText?: string;
   secondaryButtonText?: string;
   reverse?: boolean;
+  isLinked?: boolean;
 }
 
 export default function Section({
@@ -26,6 +27,7 @@ export default function Section({
   primaryButtonText = "Contact Us",
   secondaryButtonText = "Call Now",
   reverse = false,
+  isLinked = false,
 }: SectionProps) {
   return (
     <section className="text-black py-4 sm:py-12 md:py-16 lg:py-24">
@@ -41,16 +43,25 @@ export default function Section({
           }`}
         >
           {/* Heading Section */}
-          <h2 className="text-base sm:text-lg font-semibold text-[#E0A523] mb-2">
+          <h3 className="text-base sm:text-lg font-semibold text-[#E0A523] mb-2">
             <span className="text-black">{titleHighlight}</span> {companyName}
-          </h2>
+          </h3>
 
-          <h1
+          <h2
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug md:leading-tight mb-5 sm:mb-6 font-playfair"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            {heading}
-          </h1>
+            {isLinked ? (
+              <a
+                href="https://en.wikipedia.org/wiki/Stone_veneer"
+                target="_blank"
+              >
+                {heading}
+              </a>
+            ) : (
+              heading
+            )}
+          </h2>
 
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
             {text}

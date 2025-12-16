@@ -11,7 +11,7 @@ export const AboutEliteStone = () => {
           <div className="flex flex-col gap-4 w-full lg:w-1/2">
             <div>
               <Image
-                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762642411/service-1_oatapa.jpg"
+                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643065/hero_bcojjt.png"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-full"
                 width={600}
@@ -27,7 +27,7 @@ export const AboutEliteStone = () => {
                 height={200}
               />
               <Image
-                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762643065/hero_bcojjt.png"
+                src="https://res.cloudinary.com/dibydryv8/image/upload/v1762642411/service-1_oatapa.jpg"
                 alt="service image"
                 className="object-cover rounded-xl shadow-lg w-1/2"
                 width={290}
@@ -52,14 +52,20 @@ export const AboutEliteStone = () => {
 
             <p className="text-gray-500 leading-relaxed mb-8 text-md">
               Elite Stone Builders AZ LLC is your trusted partner in providing
-              superior quality stone construction solutions. Built on the core
-              values of integrity, craftsmanship, and customer satisfaction, we
-              offer an unmatched blend of style, functionality, and durability
-              in our work. Our team of highly skilled professionals brings
-              decades of experience and a commitment to excellence, ensuring we
-              exceed client expectations at every turn. Specialized in custom
-              stone projects, we cater to both residential and commercial needs
-              across Arizona.
+              superior quality{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Stonemasonry"
+                target="_blank"
+              >
+                stone construction
+              </a>{" "}
+              solutions. Built on the core values of integrity, craftsmanship,
+              and customer satisfaction, we offer an unmatched blend of style,
+              functionality, and durability in our work. Our team of highly
+              skilled professionals brings decades of experience and a
+              commitment to excellence, ensuring we exceed client expectations
+              at every turn. Specialized in custom stone projects, we cater to
+              both residential and commercial needs across Arizona.
             </p>
 
             <div className="flex flex-wrap gap-4">

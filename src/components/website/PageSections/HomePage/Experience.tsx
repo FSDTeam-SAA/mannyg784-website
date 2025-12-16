@@ -8,16 +8,16 @@ export default function Experience() {
       <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 items-center gap-12">
         {/* LEFT CONTENT */}
         <div className="text-center md:text-left">
-          <h2 className="text-base sm:text-lg font-semibold text-[#E0A523] mb-2">
+          <h3 className="text-base sm:text-lg font-semibold text-[#E0A523] mb-2">
             Elite Stone <span className="text-black">Builders AZ LLC</span>
-          </h2>
+          </h3>
 
-          <h1
+          <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug md:leading-tight mb-6 font-playfair"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
             Experience the Excellence, Build with the Best!
-          </h1>
+          </h2>
 
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
             Elite Stone Builders AZ LLC is your trusted partner in providing
